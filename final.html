@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-RAY SCAN</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="headerdiv">
+    <p class="htext">X-RAY SCAN</p>
+  </div>
+
+  <div class="main-content">
+    <div class="instructions">
+        <p>Upload an X-ray image for prediction</p>
+    </div>
+    <div class="box" id="dropZone">
+        <input type="file" id="uploadInput" accept="image/*">
+        <button id="uploadButton">Upload X-Ray</button>
+        <p>Or drag and drop an image here</p>
+    </div>
+</div>
+<div id="imageContainer"></div>
+<div id="spinnerContainer"></div>
+<div class="bgd"></div>
+<div class="bgdv"></div>
+<script src="final.js"></script>
+</body>
+</html>
